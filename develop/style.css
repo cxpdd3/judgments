@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(236, 231, 231);
+}
+
+nav {
+    background-color: #fa6400;
+    text-align: left;
+}
+
+#title {
+    font-size: 100px;
+    color: rgb(240, 233, 233);
+}
+
+#list {
+    background-color: rgba(253, 253, 253, 0.699);
+    text-align: left;
+    padding: 4px
+}
+
+.resources {
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    margin-right: 1%;
+    font-weight: bold;
+    padding: 5px
+}
+
+div {
+    text-align: center;    
+}
+
+.step {
+    width: 100%;
+    font-size: 40px;
+    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+    align-content: center;
+}
+
+#excel {
+    color: green
+}
+
+#email {
+    text-decoration: none;
+}
+
+.answer {
+    text-align: center;
+}
+
+#yes, #no, #final, #off, #multiple, #only-one, #listed, #locations, #new, #judge1noadd, #found {
+    font-size: 35px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: #FC9C5C;
+    text-decoration: none;
+    color: rgb(65, 60, 60);
+    border: solid;
+    margin-top:2%;
+    border-radius: 10px
+}
+
+#final, #off {
+    width: auto;
+    margin-top: 10%;
+}
+
+#yes {
+    margin-right: 4%;
+}
+#multiple {
+    width: auto;
+    margin-top: 2%;
+}
+
+#verify {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#checkbox #verify {
+    float: left;
+}
+
+#verify li {
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 1%;
+    margin-left: 10px
+}
+
+#final {
+    margin-right: 5%;
+    list-style-type: none;
+}
+
+#only-one {
+    width: auto;
+    margin-top: 2%;
+}
+
+#county, #nothing, #onejudge {
+    font-size: 30px;
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    text-decoration: none;
+    color: rgb(7, 133, 38);
+    margin-top:2%;
+}
+
+#county, #nothing {
+    color: rgb(22, 22, 20)
+}
+
+.check {
+    padding: 25px;
+}
+
+#ilist {
+    float: left;
+}
+
+.list {
+    margin-left:100px;
+    margin-top: 20px;
+    font-size: 30px;
+    list-style-type: none;
+    float: left;
+    text-align: left;
+}
+
+input {
+    margin: 10px 0;
+    margin-right: 5px
+}
+
+#icheck {
+    width: 100%;
+    text-decoration: underline;
+    font-size: 60px;
+    margin-left: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container {
+    font-size: 40px;
+    display: block;
+    width: auto;
+    height: 50px;
+    background-color:#FC9C5C;
+    text-decoration: none;
+    color: rgb(44, 42, 42);
+    border: solid;
+    margin-top:2%;
+    border-radius: 10px
+}
+
