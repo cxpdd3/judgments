@@ -19,26 +19,29 @@ header {
 }
 
 #indextitle {
-    font-size: 100px;
-    color: black;
+    font-size: 75px;
+    color: white;
     text-align: center;
+    font-family: Geneva, Tahoma, sans-serif;
 }
 
 aside {
     margin-top: 20px;
-    width: 50%
-
-}
-
-#aside {
-    float: left;
+    width: 20%;
+    float:left;
     clear: both;
     border: 2px solid;
-    width: 70%;
     border-radius: 10px;
-    background-color: #7397e4;
-    padding: 25px;
+    background-color: #ecf3f2;
     margin: 10px;
+    text-align: center
+}
+
+aside h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 main {
@@ -46,13 +49,26 @@ main {
     width: 50%
 }
 
+main div {
+    padding: 10px;
+}
+
 #investinet {
     float: right;
     border-radius: 10px;
-    background-color: #7397e4;
-    padding: 25px;
+    background-color:  #ecf3f2;
     margin: 10px;
-    width: 110%
+    width: 90%;
+    border: 2px solid;
+}
+
+#resurgent {
+    float: right;
+    border-radius: 10px;
+    background-color:  #ecf3f2;
+    margin: 10px;
+    width: 90%;
+    border: 2px solid;
 }
 
 #resp, #invp {
@@ -62,15 +78,17 @@ main {
 }
 
 #investinet h2 {
-    text-align: center;
-    margin-bottom: 8px;
+    text-align: left;
+    margin-bottom: 2px;
     font-size: 40px;
     text-decoration: underline
 }
 
-#resh2 {
-    text-align: right;
-    margin-top: 25px;
+#resurgent h2 {
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 40px;
+    text-decoration: underline
 }
 
 #invimg, #resimg {
@@ -82,7 +100,6 @@ main {
 }
 
 #resimg {
-    float: left;
     margin-right: 15px;
 }
 
@@ -91,18 +108,17 @@ hr {
 }
 
 #title {
-    font-size: 100px;
-    color: rgb(240, 233, 233);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: rgb(37, 199, 37);
 }
 
 nav {
-    background-color: #fa6400;
+    background-image: linear-gradient(to right, rgba(0, 95, 95, 0.199), rgb(95,178,199,1));
     text-align: left;
 }
 
-#indexlist {
-    background-color: #7397e4;
-    text-align: center;
+#indexlist {    
     padding: 4px;
 }
 
@@ -114,8 +130,41 @@ nav {
     padding: 5px
 }
 
+#indexli {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#indexli a {
+    text-decoration: none;
+    opacity: 1
+}
+
+#indexli a:hover {
+    opacity: 0.6
+}
+
+#indexli p {
+    margin-bottom: 20px;
+}
+
+.indexitems {
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.indexitems p {
+    font-weight: normal;
+    font-size: 17px;
+    text-align: center;
+}
+
 #list {
-    background-color: rgba(253, 253, 253, 0.699);
+    background-color: rgb(236, 240, 240);
     text-align: left;
     padding: 4px
 }
@@ -129,13 +178,17 @@ nav {
     padding: 5px
 }
 
+.resources:hover {
+    background-color: rgb(202, 204, 204)
+}
+
 div {
     text-align: center;    
 }
 
 .step {
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 0;
     margin-top: 50px;
     margin-bottom: 0;
@@ -155,16 +208,21 @@ div {
 }
 
 #yes, #no, #final, #off, #multiple, #only-one, #listed, #locations, #new, #judge1noadd, #found {
-    font-size: 35px;
+    font-size: 25px;
     display: inline-block;
     width: auto;
     height: auto;
-    background-color: #FC9C5C;
+    background-color: rgb(81, 194, 160);
     text-decoration: none;
-    color: rgb(65, 60, 60);
+    color: rgb(0, 0, 0);
     border: solid;
-    margin-top:2%;
-    border-radius: 10px
+    margin-top: 1.5%;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+#yes:hover, #no:hover, #final:hover, #off:hover, #multiple:hover, #only-one:hover, #listed:hover, #locations:hover, #new:hover, #judge1noadd:hover, #found:hover {
+    opacity: 0.7
 }
 
 #final, #off {
@@ -177,7 +235,7 @@ div {
 }
 #multiple {
     width: auto;
-    margin-top: 2%;
+    margin-top: 1.5%;
 }
 
 #verify {
@@ -188,6 +246,7 @@ div {
 
 #checkbox #verify {
     float: left;
+    position: relative;
 }
 
 #verify li {
@@ -204,11 +263,11 @@ div {
 
 #only-one {
     width: auto;
-    margin-top: 2%;
+    margin-top: 1.5%;
 }
 
 #county, #nothing, #onejudge {
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     width: auto;
     height: 50px;
@@ -229,7 +288,7 @@ div {
     float: left;
 }
 
-.list {
+.checklist {
     margin-left:100px;
     margin-top: 20px;
     font-size: 30px;
@@ -246,7 +305,7 @@ input {
 #icheck {
     width: 100%;
     text-decoration: underline;
-    font-size: 60px;
+    font-size: 45px;
     margin-left: 0;
     margin-top: 50px;
     text-align: center;
